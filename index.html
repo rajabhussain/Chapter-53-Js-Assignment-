@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>javascript Image Swapping</h1>
+
+    <div class="container">
+
+        <!-- Image 1 -->
+        <div class="card">
+            <img id="img1" src="image/images (1).jpg" alt="Image 1">
+            <button onclick="swapPic('img1', 'image/images (2).jpg')">
+                Button 1
+            </button>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="card">
+            <img id="img2" src="image/images (3).jpg" alt="Image 2">
+
+            <button onclick="swapPic('img2', 'image/images (4).jpg')">
+                Button 2
+            </button>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="card">
+            <img id="img3" src="image/images (5).png" alt="JavaScript">
+
+            <button onclick="swapPic('img3', 'image/images (6).jpg')">
+                Button 3
+            </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
